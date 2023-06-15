@@ -37,13 +37,21 @@ dependencies:
   vm_service: ^11.4.0
   yaml: ^3.1.1
   serverpod_shared: #^1.1.1
-    path: ../serverpod_shared
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_shared
   serverpod_serialization: #^1.1.1
-    path: ../serverpod_serialization
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_serialization
   serverpod_service_client: #^1.1.1
-    path: ../serverpod_service_client
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_service_client
   serverpod_client: #^1.1.1
-    path: ../serverpod_client
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_client
 
 dev_dependencies:
   test: ^1.24.2

@@ -14,7 +14,9 @@ environment:
 
 dependencies:
   serverpod_client: #^1.1.1
-    path: ../serverpod_client
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_client
   meta: ^1.8.0
 
 dev_dependencies:

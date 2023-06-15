@@ -31,9 +31,13 @@ dependencies:
   uuid: ^3.0.7
   yaml: ^3.1.1
   serverpod_shared: #^1.1.1
-    path: ../../packages/serverpod_shared
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_shared
   serverpod_service_client: #^1.1.1
-    path: ../../packages/serverpod_service_client
+    git:
+      url: git@github.com:shvilesh/serverpod.git
+      path: packages/serverpod_service_client
   async: ^2.11.0
   meta: ^1.8.0
 
