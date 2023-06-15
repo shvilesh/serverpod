@@ -39,18 +39,22 @@ dependencies:
   serverpod_shared: #^1.1.1
     git:
       url: git@github.com:shvilesh/serverpod.git
+      branch: shvilesh
       path: packages/serverpod_shared
   serverpod_serialization: #^1.1.1
     git:
       url: git@github.com:shvilesh/serverpod.git
+      branch: shvilesh
       path: packages/serverpod_serialization
   serverpod_service_client: #^1.1.1
     git:
       url: git@github.com:shvilesh/serverpod.git
+      branch: shvilesh
       path: packages/serverpod_service_client
   serverpod_client: #^1.1.1
     git:
       url: git@github.com:shvilesh/serverpod.git
+      branch: shvilesh
       path: packages/serverpod_client
 
 dev_dependencies:
